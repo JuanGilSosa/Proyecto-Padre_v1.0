@@ -914,6 +914,7 @@ void modifyfile_r(ropaNueva a){
     }
 }
 
+///Sin terminar
 void restaurarRopaBajada(stDivisiones **ADL){
     int flag = 0;
     int cant = contarRegistrosRopa("ropaBajada.dat");
