@@ -1,0 +1,387 @@
+# depslib dependency file v1.0
+1580410654 source:c:\users\administrador\desktop\administracion padre\divisiones.c
+	"divisiones.h"
+
+1579276464 c:\users\administrador\desktop\administracion padre\divisiones.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	"listasDobles.h"
+
+1580402626 c:\users\administrador\desktop\administracion padre\listasdobles.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1578431566 c:\users\administrador\desktop\administracion padre\jugador.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Entreamiento.h"
+	"Viaje.h"
+
+1578613612 source:c:\users\administrador\desktop\administracion padre\entrenamiento.c
+	"Entreamiento.h"
+
+1578259026 c:\users\administrador\desktop\administracion padre\entreamiento.h
+	<stdio.h>
+	<stdlib.h>
+
+1558962286 source:c:\users\administrador\desktop\administracion padre\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1579277750 source:c:\users\administrador\desktop\administracion padre\jugador.c
+	"jugador.h"
+
+1580402626 source:c:\users\administrador\desktop\administracion padre\listasdobles.c
+	"listasDobles.h"
+
+1580409223 source:c:\users\administrador\desktop\administracion padre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	"divisiones.h"
+	"gotoxy.h"
+
+1558962286 c:\users\administrador\desktop\administracion padre\gotoxy.h
+
+1580410219 source:c:\users\administrador\desktop\administracion padre\menus.c
+	"MENUS.h"
+
+1578432570 c:\users\administrador\desktop\administracion padre\menus.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	"divisiones.h"
+
+1580412306 source:c:\users\administrador\desktop\administracion padre\ropa.c
+	"ropa.h"
+
+1580227508 c:\users\administrador\desktop\administracion padre\ropa.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	"jugador.h"
+	"divisiones.h"
+
+1578431566 c:\users\administrador\desktop\administracion padre\viaje.h
+	<stdio.h>
+	<stdlib.h>
+	"Bolso.h"
+
+1578435542 source:c:\users\administrador\desktop\administracion padre\viaje.c
+	"Viaje.h"
+
+1580060919 source:c:\users\administrador\desktop\administracion padre\bolso.c
+	"Bolso.h"
+
+1578974066 c:\users\administrador\desktop\administracion padre\bolso.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1578435542 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\bolso.c
+	"Bolso.h"
+
+1578974066 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\bolso.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1579370274 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\divisiones.c
+	"divisiones.h"
+
+1579276464 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\divisiones.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	"listasDobles.h"
+
+1578430252 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\listasdobles.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1578431566 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\jugador.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Entreamiento.h"
+	"Viaje.h"
+
+1578259026 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\entreamiento.h
+	<stdio.h>
+	<stdlib.h>
+
+1578431566 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\viaje.h
+	<stdio.h>
+	<stdlib.h>
+	"Bolso.h"
+
+1578613612 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\entrenamiento.c
+	"Entreamiento.h"
+
+1558962286 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1579277750 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\jugador.c
+	"jugador.h"
+
+1579450158 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\listasdobles.c
+	"listasDobles.h"
+
+1579387380 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	"divisiones.h"
+	"gotoxy.h"
+
+1558962286 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\gotoxy.h
+
+1579385654 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\menus.c
+	"MENUS.h"
+
+1578432570 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\menus.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	"divisiones.h"
+
+1579738786 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\ropa.c
+	"ropa.h"
+
+1579736808 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\ropa.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"jugador.h"
+	"divisiones.h"
+
+1578435542 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\viaje.c
+	"Viaje.h"
+
+1579455452 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\opciones.c
+	"opciones.h"
+
+1579451750 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre\opciones.h
+	<stdio.h>
+	<stdlib.h>
+	"divisiones.h"
+
+1580067344 source:c:\users\administrador\desktop\administracion padre\opciones.c
+	"opciones.h"
+
+1579451750 c:\users\administrador\desktop\administracion padre\opciones.h
+	<stdio.h>
+	<stdlib.h>
+	"divisiones.h"
+
+1578435542 source:e:\administracion padre\bolso.c
+	"Bolso.h"
+
+1578974066 e:\administracion padre\bolso.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1579370274 source:e:\administracion padre\divisiones.c
+	"divisiones.h"
+
+1579276464 e:\administracion padre\divisiones.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	"listasDobles.h"
+
+1578430252 e:\administracion padre\listasdobles.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1578431566 e:\administracion padre\jugador.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Entreamiento.h"
+	"Viaje.h"
+
+1578259026 e:\administracion padre\entreamiento.h
+	<stdio.h>
+	<stdlib.h>
+
+1578431566 e:\administracion padre\viaje.h
+	<stdio.h>
+	<stdlib.h>
+	"Bolso.h"
+
+1578613612 source:e:\administracion padre\entrenamiento.c
+	"Entreamiento.h"
+
+1558962286 source:e:\administracion padre\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1579277750 source:e:\administracion padre\jugador.c
+	"jugador.h"
+
+1579450158 source:e:\administracion padre\listasdobles.c
+	"listasDobles.h"
+
+1579387380 source:e:\administracion padre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	"divisiones.h"
+	"gotoxy.h"
+
+1558962286 e:\administracion padre\gotoxy.h
+
+1579385654 source:e:\administracion padre\menus.c
+	"MENUS.h"
+
+1578432570 e:\administracion padre\menus.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	"divisiones.h"
+
+1579455452 source:e:\administracion padre\opciones.c
+	"opciones.h"
+
+1579451750 e:\administracion padre\opciones.h
+	<stdio.h>
+	<stdlib.h>
+	"divisiones.h"
+
+1579738788 source:e:\administracion padre\ropa.c
+	"ropa.h"
+
+1579736810 e:\administracion padre\ropa.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"jugador.h"
+	"divisiones.h"
+
+1578435542 source:e:\administracion padre\viaje.c
+	"Viaje.h"
+
+1580060920 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\bolso.c
+	"Bolso.h"
+
+1578974066 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\bolso.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1580410656 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\divisiones.c
+	"divisiones.h"
+
+1579276464 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\divisiones.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	"listasDobles.h"
+
+1580402628 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\listasdobles.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1578431566 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\jugador.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Entreamiento.h"
+	"Viaje.h"
+
+1578259026 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\entreamiento.h
+	<stdio.h>
+	<stdlib.h>
+
+1578431566 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\viaje.h
+	<stdio.h>
+	<stdlib.h>
+	"Bolso.h"
+
+1578613612 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\entrenamiento.c
+	"Entreamiento.h"
+
+1558962286 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1579277750 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\jugador.c
+	"jugador.h"
+
+1580402628 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\listasdobles.c
+	"listasDobles.h"
+
+1580409224 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	"divisiones.h"
+	"gotoxy.h"
+
+1558962286 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\gotoxy.h
+
+1580410220 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\menus.c
+	"MENUS.h"
+
+1578432570 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\menus.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	"divisiones.h"
+
+1580067346 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\opciones.c
+	"opciones.h"
+
+1579451750 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\opciones.h
+	<stdio.h>
+	<stdlib.h>
+	"divisiones.h"
+
+1580412308 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\ropa.c
+	"ropa.h"
+
+1580227510 d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\ropa.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	"jugador.h"
+	"divisiones.h"
+
+1578435542 source:d:\desktop hdd\tec.sup. programacion\proyectos\administracion padre v1.0\viaje.c
+	"Viaje.h"
+

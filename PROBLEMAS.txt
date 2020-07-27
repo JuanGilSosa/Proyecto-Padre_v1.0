@@ -1,0 +1,158 @@
+/*
+*	Solo para practicar codigo y plantear
+*	los problemas que se me presentan cuando
+*	desarrollo el software a mi padre =)
+*/
+
+no sale del bucle cuando apreto ESC para no cargar jugador // solucionado - cambie la funcion a = cargarJugador(division);
+//porque estaba abajo de la funcion eleccionDivision, y si apreta 5(VOLVER) carga un jugador otra ves, donde esta no es
+
+
+/*cuando consulta un jugador, esta buena la idea de que muestre su indumen
+taria, en caso de no tener, mensaje de "Sin Ropa"/
+
+_____________________________________________________________________________________________________
+ - me esta mostrando todos los elementos de la matriz, cuando me tendria que mostrar
+   solo uno. Es decir
+
+                menu[][30] = {
+                    "Hola1","Hola2"
+                };
+    yo quiero mostrar el elemento "Hola1" - siendo que este se encuentra en la posicion
+    menu[1][30];
+    entonces uso el metodo puts(); con los determinados parametros, puts(menu[0]);
+    asi me mostraria el "Hola1" pero me muestra "Hola1""Hola2"
+
+SOLUCIONADO- tenia que poner bien el la cantidad de letras, porque eran mas de 30, poniendo
+    50 fue suficiente para que no repita strings
+_____________________________________________________________________________________________________
+
+
+	- POSICIONES DE DIVISIONES 4ta (1) 5ta (2) 6ta (3) Reserva (0) -
+
+UN ARCHIVO DE 6 REGISTROS
+
+CUARTA 1 GS   	| - estaria en la pos 0
+CUARTA 2 GS1	| - pos 0
+SEXTA 1 GS2		| - estaria en la pos 1
+RESERVA 1 GS3	| - estaria en la pos 3
+QUINTA 1 GS4	| - estaria en la pos 4
+SEXTA 2 GS5		| - pos 1
+RESERVA 2 GS6	| - pos 3
+
+
+para el listado de reserva, una lista por semestre (viendo como hacerlo)
+	ENTRENMIENTO / PARA JUGAR
+	- mostrando los jugadores(interaccion con left & right) con su
+	  respectiva indumentaria (remera,short,buzo,zoquetes<capas>)
+
+
+_DETECTE QUE ESTA AL PEDO LA FUNCION :::: buscarPosDivision(stDivisiones **ADL, int div);
+
+
+
+
+
+/*
+void listadoJugadores(stDivisiones **ADL){
+    Nodo *aux;
+    char div[8];
+    int d = eleccionDivision();
+    mostrarDivision(d,div);
+    aux = (*ADL)[d].listaJugador;
+    gotoxy(72,1);
+    printf(" LISTA DE JUGADORES DE %s",div);
+
+    char op;
+    if(aux == NULL){
+        gotoxy(76,13);
+        printf(" [LISTA VACIA] ");
+        getch();
+    }else{
+        gotoxy(74,6);
+        printf("  ");
+
+        color(14);
+        gotoxy(76,22);
+        printf("MOVER CON FLECHAS");//17 letras
+        gotoxy(73,22);
+        printf("%c%c",174,174);           //175 » | 174 «
+        gotoxy(94,22);
+        printf("%c%c",175,175);
+        gotoxy(80,24);
+        printf("ESC Salir");
+
+        mostrarJugador(aux->dato,76,8);
+
+        while(op != 13 && op!=27)                                       //si apreta enter, rompe el bucle, y si apreta escape, tambien
+        {
+            hidecursor(0);
+            fflush(stdin);
+            op = _getch();
+            if(op == LEFT)
+            {
+                gotoxy(73,22);
+                color(11);
+                printf("%c%c",174,174);
+
+                if(aux->ante)
+                {
+                    aux = aux->ante;
+                    //poner borrarTextos
+                    borrarTexto(88,8,25);
+                    borrarTexto(88,10,25);
+                    borrarTexto(88,12,25);
+                    borrarTexto(88,14,25);
+                    borrarTexto(88,16,25);
+                    mostrarJugador(aux->dato,76,8);
+                }
+                //pintamos el color de la flechita en ese color
+                gotoxy(73,22);
+                color(14);
+                printf("%c%c",174,174);
+            }
+            if(op == RIGHT)
+            {
+                gotoxy(94,22);
+                color(11);
+                printf("%c%c",175,175);
+
+                if(aux->sig)
+                {
+                    aux = aux->sig;
+                    //poner borrarTextos
+                    borrarTexto(88,8,25);
+                    borrarTexto(88,10,25);
+                    borrarTexto(88,12,25);
+                    borrarTexto(88,14,25);
+                    borrarTexto(88,16,25);
+                    mostrarJugador(aux->dato,76,8);
+                }
+                //despintamos la flechita
+                gotoxy(94,22);
+                color(14);
+                printf("%c%c",175,175);
+            }
+        }
+    }
+    //borra al jugador cuando sale de todo
+    borrarTexto(76,8,35);
+    borrarTexto(76,10,35);
+    borrarTexto(76,12,35);
+    borrarTexto(76,14,35);
+    borrarTexto(76,16,35);
+    //es el mensaje de LISTA VACIA
+    borrarTexto(76,13,20);
+    //borra el ESC salir y las flechas
+    borrarTexto(76,22,30);
+    borrarTexto(73,22,5);
+    borrarTexto(94,22,5);
+    borrarTexto(80,24,15);
+    //titulo
+    borrarTexto(72,1,40);
+}
+*/
+
+
+--problema en el menu de ver. Cuando ingreso el menu de ver ropa y muestro un jugador con su ropa de entrenamiento, pongo volver y cuando presiono Cargada en el sistema, me muestra el visualizarRopa(); y dsp abre el menu de eleccionRopa();
+Tambien dsp de mostrar la ropa de viaje, ej. y quiero ver la ropa de entrenamiento de los jugadores, me muestra la ropa de viaje anteriormente vista
